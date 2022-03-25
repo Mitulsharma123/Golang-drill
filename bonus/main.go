@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func main(){
-	m := map[string]int{
+	m := map[string]string{
 		"Tesla":"elon",
 		"facebook":"mark",
 		"apple":"tim",
