@@ -1,6 +1,7 @@
 // Fix the Bug in code and make it working to print all values 
 
 package main
+import "fmt"
 
 func main(){
 	m := map[string]int{
