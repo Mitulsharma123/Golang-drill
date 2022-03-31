@@ -20,6 +20,7 @@ func main(){					//<---------main go routine---------->
 	 }	
 }
 
+
 func checkLink(link string){
 	_, err:=http.Get(link)	//<-----------Blocking call 
 	// main go routine get frozen when this part executes 

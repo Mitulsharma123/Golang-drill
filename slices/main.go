@@ -1,14 +1,15 @@
 package main
 
-import "fmt"
+import "fmt" 
 
 func main() {
-	//fruits := []string{"Apple", "Banana", "Papaya", "Cheeku"}
-	//fruits = append(fruits, "Rasbpberry")
+	fruits := []string{"Apple", "Banana", "Papaya", "Cheeku"}
+	fruits = append(fruits, "Rasbpberry")
 
-	/*for _, fruit := range fruits {
+	for _, fruit := range fruits {
 		fmt.Println(fruit)
-	}*/
+	}
 
 	//fmt.Println(fruits[1])
+	//fmt.Println(fruits) 
 }

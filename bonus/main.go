@@ -1,6 +1,7 @@
-// Fix the Bug in code and make it working to print all values 
+//Working Code
 
 package main
+
 import "fmt"
 
 func main(){
@@ -8,12 +9,10 @@ func main(){
 		"Tesla":"elon",
 		"facebook":"mark",
 		"apple":"tim",
-		"google":"sundar"
+		"google":"sundar",
 	}
 
-	for _,value:=range map{
-		fmt.println(Value)
-	}
-		}
+	for _, value := range m{
+		fmt.Println(value)
 	}
 }

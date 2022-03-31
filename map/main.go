@@ -9,13 +9,14 @@ func main() {
 		"white": "#ffffff",
 	}
 
-	/*fmt.Println("before insert",colors)
-	colors["yellow"] = "laksjdf"
+	//fmt.Println("before insert",colors)
+	//colors["yellow"] = "laksjdf" 
+	//fmt.Println(colors)
 	//delete(colors, "yellow")
-	fmt.Println("after insert",colors)
-	delete(colors, "yellow")
-	fmt.Println("after deletion", colors)
-	*/
+	//fmt.Println("after insert",colors)
+	//delete(colors, "yellow")
+	//fmt.Println("after deletion", colors)
+	
 	printMap(colors)
 }
 

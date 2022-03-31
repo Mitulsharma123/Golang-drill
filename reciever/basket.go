@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// create a new type of 'deck' i.e. slice of string
+// create a new type of 'basket' i.e. slice of string
 type basket []string
 
 func (b basket) show() {
